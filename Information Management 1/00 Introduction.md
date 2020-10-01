@@ -20,7 +20,6 @@ In this module we will be using UML to deal with the data from users.
 4. On the scheduled "Face 2 Face" week teaching team will be available online to answer any questions we have.
 5. Lecturer is happy to take emails.  
 
-
 ## Assessment Process
 1. Coursework component comprises one large group assignment with multiple parts.
 2. Work will be submitted via blackboard.
