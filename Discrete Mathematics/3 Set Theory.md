@@ -5,7 +5,7 @@
 ## Natural Numbers
 ℕ the set of natural numbers starting at 0.
 ℕ is defined by the following two axioms:
-1. `0 ∈ ℕ``
+1. `0 ∈ ℕ`
 2. if `x ∈ ℕ`, then `x + 1 ∈ ℕ (x ∈ ℕ -> x + 1 ∈ ℕ)`
 
 ## Real Numbers
