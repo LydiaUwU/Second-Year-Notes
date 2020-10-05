@@ -41,3 +41,24 @@ end concurrent_behavior;
   - Other signals.
   - Propagation delay.
 - `constant` can be used to declare a constant of a particular type. In this case `Time`.
+
+## Signals and Time
+- Signals are not variables, they have a history of values over time/waveform.
+- Signals may use the assignment symbol ``:=``.
+- If signals aren't initialised they will receive a default value.
+
+## Multiple Signal Transactions
+It is possible to specify the following:
+
+```vhdl
+s1 <= (x xor y) after 5 ns, (x or y) after 10 ns, (not x) after 10 ns;
+```
+
+- After one of the signals changed all three waveform elements will be evaluated and scheduled according to their specification.
+- The simulation keeps an ordered list of all transactions scheduled for a particular signal.
+- Also known as **Projected Output Waveform**.
+
+## Resolved Signals
+- In a physical system a wire (signal) has a driver, this driver determines the waveform.
+- VHDL determines the value of the signal with multiple drivers through a resolution function.
+- A shared signal must be declared as a resolved type.
