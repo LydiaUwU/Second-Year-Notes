@@ -16,3 +16,6 @@ suffices to describe the order of growth of most common algorithms.
 - Too small, go left.
 - Too big, go right.
 - Equal, found.
+
+## Logarithms
+- The base of the logarithm contributes only a constant factor to the running time, it does not contribute to the Order-of-Growth.
