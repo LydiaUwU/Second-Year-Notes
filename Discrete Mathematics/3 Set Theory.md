@@ -72,3 +72,28 @@ Intersection and Union are associative.
 - Criterion for probing non-equality of sets.
 
 An involution is a map such that applying it twice gives the identity.
+
+## The Power Set
+**Definition:** Let `A` be a set. The power set of `A` denoted `P(A)` is the collection of all subsets of `A`.
+
+`P(A)` and `A` are viewed as living as separate worlds to avoid phenomena like Russell's Paradox.
+
+### Theorem
+Let `A` be a set with `n` elements, then `P(A)` contains `2^n` elements.
+
+### Proof
+Based on the on/off switch idea.
+
+For all elements `x` of `A`, we have two choices: either we include `x` in the subset or we don't. `A` has `n` elements implies we have `2^n` subsets of `A`.
+
+**qed**
+
+**Note:** It is an axiom of set theory that every set has a power set, which implies no set of all possible sets could exist, else what would its power set be?
+
+## Cartesian Products
+**Definition:** Let `A`, `B` be sets. The Cartesian product denoted by `A x B` consists of all ordered pairs `(x, y)` such that `x` is an element of `A` and `y` is an element of `B`.
+
+## Cardinality (number of elements) in a Cartesian Product
+If `A` has `m` elements and `B` has `p` elements, `A x B` has `mp` elements.
+
+We can define Cartesian products of any length. If all sets are finite, the numbers of elements is too.
