@@ -55,3 +55,20 @@ It is possible to subtract one set from another.
 - Misleading if sets are in some non standard configuration.
 - Not helpful if a lot of sets are involved.
 - Not helpful if sets are infinite or have some peculiar structure.
+
+## Properties of Set Operations
+### Commutativity
+Intersection and Union are commutative.
+
+### Associativity
+Intersection and Union are associative.
+
+### Additional Properties
+- Distributivity
+- De Morgan Laws
+- Involutivity of the Compliment
+- Transitivity of Inclusion
+- Criterion for proving equality of sets.
+- Criterion for probing non-equality of sets.
+
+An involution is a map such that applying it twice gives the identity.
