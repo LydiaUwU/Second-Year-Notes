@@ -8,7 +8,7 @@
 
 **Challenge:** How to estimate constants.
 
-**Ovservation:** Most primitive operations take constant time.
+**Observation:** Most primitive operations take constant time.
 **Caveat:** Non-primitive operations often take more than constant time. *E.g. abusive string concatenation.*
 
 ## Advantages/Disadvantages Over Scientific Method
@@ -46,7 +46,7 @@ Ignore lower order terms.
 ## Cost Model 3
 Simplifying the calculations. Use some basic operation as a proxy for running time.
 
-**Careful!:** Don't over-simplify! Make sure that the operations you are not counting add up toa  factor lower than the operations you do want to counting
+**Careful!:** Don't over-simplify! Make sure that the operations you are not counting add up to a factor lower than the operations you do want to counting
 
 ## Combination of Cost Models
 Each cost model makes a simplification in the calculation of running time. We can even combine the assumptions of different cost models.
