@@ -9,7 +9,7 @@
 - CSA is only one out of many alternative VHDL constructs.
 
 ## Process Construct
-It's difficult to simulate CSA models of large complex systems at gate level so to increas the level of abstraction whilst preserving external event behaviour we need a more powerful language construct.
+It's difficult to simulate CSA models of large complex systems at gate level so to increase the level of abstraction whilst preserving external event behaviour we need a more powerful language construct.
 
 ### The Process Construct Allows us to:
 - Model at a higher level of abstraction.
