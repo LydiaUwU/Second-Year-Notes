@@ -15,3 +15,11 @@ Note how general this definition is. To make it useful for understanding predica
 **Partition:** Let `A` be a set. A *partition* of `A` is a collection of non-empty sets, any two of which are disjoint (non intersecting) such that their union is `A`.
 
 **Definition:** If `R` is an equivalence relation on a set `A` and `x` is an element of `A`, the equivalence class of `x` is denoted as `[x]_R` is the set `{y | xRy}`. The collection of all equivalence classes is called `A` modulo `R` and denoted `A/R`.
+
+For any equivalence relation `R` on a set `A`, its equivalence classes form a partition of `A`.
+1. Every element of `A` sits somewhere.
+2. All elements related by `R` belong to the same equivalence class.
+3. If two elements are not related by `R` then they belong to disjoint equivalence classes.
+
+## Partial Orders
+**Partial Order:** A relation on a set `A` that is reflexive, anti-symmetric and transitive.
