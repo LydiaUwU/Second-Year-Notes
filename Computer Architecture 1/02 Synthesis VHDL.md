@@ -54,6 +54,6 @@ entity module is
 end module;
 ```
 
-**Ports:** Define the input and output of the design entitiy. Ports are signals that enable communication between the design entity and other entities.
+**Ports:** Define the input and output of the design entity. Ports are signals that enable communication between the design entity and other entities.
 
 Port signals must declare their type.

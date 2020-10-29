@@ -27,4 +27,4 @@ A `process` is a sequentially executed block of code, similar to conventional bl
 - Propagation delay is taken into account.
 - The rest of the process executes in zero time with respect to simulation.
 - A process is executed if an inout signal in the list following the process has changed.
-- The list of inputs is called a **sensitvity list**.
+- The list of inputs is called a **sensitivity list**.

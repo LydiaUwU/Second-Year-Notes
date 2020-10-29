@@ -9,3 +9,5 @@
 **Client:** The program that uses the ADT.
 
 # Stacks and Queues
+**Stack:** Examine the item most recently added.
+**Queue:** Examine the item least recently added.
