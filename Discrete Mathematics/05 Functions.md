@@ -15,3 +15,6 @@ In order for a function `f` to have an inverse it needs to be to be both injecti
 
 ## Functions Defined on Finite Sets
 This was a collection of proofs.
+
+## Functions Defined on Infinite Sets
+This was also a collection of proofs. Hilbert's Hotel is pretty neat.

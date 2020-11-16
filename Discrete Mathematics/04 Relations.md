@@ -1,4 +1,4 @@
-# Relations
+ Relations
 **Definition:** Let `A`, `B` be sets. A subset of the Cartesian product `A x B` is called a relation between `A` and `B`. A subset of the Cartesian product is `A x A` is called a relation on `A`.
 
 Note how general this definition is. To make it useful for understanding predicates, we will need to introduce key properties relations can satisfy.
