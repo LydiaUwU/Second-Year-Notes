@@ -14,3 +14,11 @@
 
 ## Inverses
 **Inverse:** Let `(A, *)` be a monoid with identity element `e` and let `x` be an element of `A`. An element `y` of `A` is called the inverse of `x` if `x * y = y * x = e`. If `x` has an inverse it is called **invertible**.
+
+## Groups
+**Group:** A group is a monoid in which every element is invertible.
+
+## Homomorphisms and Isomorphisms
+**Homomorphism:** Let `(A, *)` and `(B, *)` both be semigroups, monoids or groups. A function `f : A -> B` is called a homomorphism if it respects the binary operation.
+
+**Isomorphism:** Let `(A, *)` and `(B, *)` both be semigroups, monoids or groups. A function `f : A -> B` is called an isomorphism if it is bijective and a homomorphism.
